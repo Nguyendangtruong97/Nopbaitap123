@@ -1,0 +1,22 @@
+ul {
+    background: #e8e8e8;
+    width: 250px;
+    height: 50px;
+    padding: 0;
+    margin: 0 auto;
+}
+#inside {
+    list-style-position: inside;
+}
+#outside {
+    list-style-position: outside;
+}
+#container {
+    padding-left: 5px;
+    margin-left: 15px;
+}
+#container p {
+    display: list-item;
+    list-style: disc;
+    margin: 0;
+}
