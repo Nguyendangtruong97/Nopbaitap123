@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        /*==Ví dụ về liên kết ==*/
+        a {
+            color: red;
+            text-decoration: none;
+        }
+        a:hover {
+            color: blue !important; /* Ưu tiên với !important */
+        }
+        a:visited {
+            color: purple;
+        }
+        a:active {
+            color: green;
+        }
+
+        /*==Ví dụ về các phần tử khác ==*/
+        #box {
+            width: 150px;
+            height: 150px;
+            background: red;
+        }
+        #box:hover {
+            background: blue;
+        }
+        #box:active {
+            background: green;
+        }
+
+        /*==Ví dụ thú vị==*/
+        #thu-vi {
+            width: 150px;
+            height: 150px;
+            background: red;
+            transition: margin-left 2s, background 1s;
+            -moz-transition: margin-left 2s, background 1s;
+            -webkit-transition: margin-left 2s, background 1s;
+        }
+        #thu-vi:hover {
+            margin-left: 500px;
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<h4>Ví dụ về liên kết</h4>
+<a href="http://hoidap.thachpham.com" target="blank">Forum ThachPham Blog</a>
+
+<h4>Ví dụ đổi màu block</h4>
+<div id="box">
+
+</div>
+
+<h4>Một ví dụ thú vị hơn</h4>
+Sử dụng thuộc tính transition trong CSS3.
+<div id="thu-vi">
+
+</div>
+</body>
+</html>
